@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../assets/img/@sitioincreible.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hr{
+    border-color: white;
+    border-width: 3px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.sub-titulo{
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    margin: 20px;
+}
+
+.navbar-brand:hover{
+    background-color: rgb(121, 3, 121);
+    color: rgb(0, 0, 125);
+}
+
+.nav-item:hover{
+    background-color: rgb(121, 3, 121);
+    color: rgb(0, 0, 125);
+}
+
+.presentacion{
+    text-align: center;
+    color: white;
+}
+
+.gallery{
+    margin: 55px;
+}
+
+.lista-inicio{
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
+.footer{  
+    background-color: black;
+    text-align: center;
+}
