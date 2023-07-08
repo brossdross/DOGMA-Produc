@@ -4,13 +4,13 @@
     margin: 0;
 }
 
-body{
+body {
     background-image: url('../assets/img/@sitioincreible.png');
     background-size: cover;
     background-position: center;
 }
 
-.hr{
+.hr {
     border-color: white;
     border-width: 3px;
 }
@@ -20,41 +20,91 @@ body{
     color: white;
 }
 
-.sub-titulo{
+.sub-titulo {
     text-align: center;
     color: white;
 }
 
-.navbar{
+.navbar {
     margin: 20px;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     background-color: rgb(121, 3, 121);
     color: rgb(0, 0, 125);
 }
 
-.nav-item:hover{
+.nav-item:hover {
     background-color: rgb(121, 3, 121);
     color: rgb(0, 0, 125);
 }
 
-.presentacion{
+.presentacion {
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 4px rgb(255, 0, 144);
 }
 
-.gallery{
-    margin: 55px;
+section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    height: 430px;
 }
 
-.lista-inicio{
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);    
+}
+
+.lista-inicio {
     text-align: center;
     color: white;
     list-style: none;
 }
 
-.footer{  
+.lista-inicio-items {
+    text-shadow: 2px 2px 4px rgb(255, 0, 144);
+}
+
+.secundario {
+    margin: 15px;
+    padding-bottom: 25px;
+}
+
+.presupuestar-parrafo {
+    text-align: center;
+    color: white;
+}
+
+.wpp {
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #5100ff;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #f20aac;
+    color: #ffffff;
+}
+
+
+.footer {
     background-color: black;
     text-align: center;
+    border-top: 1px solid gray;
 }
